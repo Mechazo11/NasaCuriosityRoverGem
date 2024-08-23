@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder NasaCuriosityRoverGem/Assets": {
+                    "watch": "@GEMROOT:NasaCuriosityRoverGem@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder NasaCuriosityRoverGem/Registry": {
+                    "watch": "@GEMROOT:NasaCuriosityRoverGem@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}
