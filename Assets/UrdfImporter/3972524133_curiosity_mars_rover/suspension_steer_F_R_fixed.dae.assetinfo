@@ -25,11 +25,11 @@
                     }
                 ]
             },
-            "id": "{4BBB7F78-BAC1-467E-B672-0C430A95AF7A}"
+            "id": "{88418091-5921-46B4-9588-308941FAEEB8}"
         },
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{C4AF5B2C-C2D4-4BAC-954D-8FDF6E39C605}",
+            "id": "{7ED32B70-6040-437C-9571-A1225BAB9AA1}",
             "name": "suspension_steer_F_R_fixed",
             "NodeSelectionList": {
                 "selectedNodes": [

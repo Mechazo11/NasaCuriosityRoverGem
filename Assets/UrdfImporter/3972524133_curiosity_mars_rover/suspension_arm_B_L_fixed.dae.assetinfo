@@ -28,11 +28,11 @@
                     }
                 ]
             },
-            "id": "{CD238519-402B-4674-AB21-BC5575DE8D3D}"
+            "id": "{462446E7-BE17-43D3-8639-544607A5F38C}"
         },
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{9099894B-4491-488C-8736-3DE912C00BDC}",
+            "id": "{862580C2-C418-48E2-A5C2-D458A9BD0D01}",
             "name": "suspension_arm_B_L_fixed",
             "NodeSelectionList": {
                 "selectedNodes": [

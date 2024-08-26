@@ -36,11 +36,11 @@
                     }
                 ]
             },
-            "id": "{42E42634-B52E-43BB-A233-89961DD2B983}"
+            "id": "{32B05EF8-8161-4D1D-B951-C6E4D097F258}"
         },
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{5E09E45E-ED0A-4FEE-8EF5-F097FAA787BC}",
+            "id": "{FA5A03BB-FB88-469D-BAF1-6F20D2BF5C79}",
             "name": "mast_cameras",
             "NodeSelectionList": {
                 "selectedNodes": [

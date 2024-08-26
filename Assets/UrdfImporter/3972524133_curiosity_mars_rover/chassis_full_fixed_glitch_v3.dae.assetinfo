@@ -147,11 +147,11 @@
                     }
                 ]
             },
-            "id": "{7810623E-52ED-40C3-84DA-7FB285869B0C}"
+            "id": "{784EEAD0-FEE1-4177-B682-CEB4FABA6FB9}"
         },
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{989623DC-CAC6-4BF1-9617-BB377FB9B4BD}",
+            "id": "{5C53AB99-16A9-44A8-9EDF-0AA0D991E13A}",
             "name": "chassis_full_fixed_glitch_v3",
             "NodeSelectionList": {
                 "selectedNodes": [
