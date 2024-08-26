@@ -28,11 +28,11 @@
                     }
                 ]
             },
-            "id": "{5326E63B-3691-4414-B474-41B7F3245B88}"
+            "id": "{6FABD200-9308-4AAC-A319-92E4E20B93EE}"
         },
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{85AAF435-BA97-4AB4-ADE5-1483C367F6B3}",
+            "id": "{9484F5D2-942C-410E-8FD4-8B9BB1961519}",
             "name": "left_axis_jointfix_v2",
             "NodeSelectionList": {
                 "selectedNodes": [

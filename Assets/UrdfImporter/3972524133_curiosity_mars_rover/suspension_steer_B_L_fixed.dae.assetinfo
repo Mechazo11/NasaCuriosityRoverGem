@@ -5,19 +5,17 @@
         },
         {
             "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "arm_03_fixed",
+            "name": "suspension_steer_B_L_fixed",
             "nodeSelectionList": {
                 "selectedNodes": [
                     "Scene",
                     "Scene._Hemi_1",
                     "Scene._Hemi_2",
-                    "Scene.arm_03",
-                    "Scene.arm_03.UV0",
-                    "Scene.arm_03.tex_01",
-                    "Scene.arm_03.tex_03",
-                    "Scene.arm_03.tex_04",
-                    "Scene.arm_03.tex_05",
-                    "Scene.arm_03.transform"
+                    "Scene.suspension_steer_B_L",
+                    "Scene.suspension_steer_B_L.UV0",
+                    "Scene.suspension_steer_B_L.tex_02",
+                    "Scene.suspension_steer_B_L.tex_03",
+                    "Scene.suspension_steer_B_L.transform"
                 ]
             },
             "rules": {
@@ -27,24 +25,22 @@
                     }
                 ]
             },
-            "id": "{BB7AD12B-5AF1-4676-947E-A0929CB560DE}"
+            "id": "{DF5C6E1A-6354-4FFC-9EDB-94F553423E74}"
         },
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{517F06E5-399D-4E27-AD78-5177E7421A99}",
-            "name": "arm_03_fixed",
+            "id": "{AEC3F37B-672A-4541-A401-6A9E3F345E51}",
+            "name": "suspension_steer_B_L_fixed",
             "NodeSelectionList": {
                 "selectedNodes": [
                     "Scene",
                     "Scene._Hemi_1",
                     "Scene._Hemi_2",
-                    "Scene.arm_03",
-                    "Scene.arm_03.UV0",
-                    "Scene.arm_03.tex_01",
-                    "Scene.arm_03.tex_03",
-                    "Scene.arm_03.tex_04",
-                    "Scene.arm_03.tex_05",
-                    "Scene.arm_03.transform"
+                    "Scene.suspension_steer_B_L",
+                    "Scene.suspension_steer_B_L.UV0",
+                    "Scene.suspension_steer_B_L.tex_02",
+                    "Scene.suspension_steer_B_L.tex_03",
+                    "Scene.suspension_steer_B_L.transform"
                 ]
             },
             "export method": 1,
@@ -52,7 +48,7 @@
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "tex_05"
+                        "Name": "tex_03"
                     }
                 ]
             }

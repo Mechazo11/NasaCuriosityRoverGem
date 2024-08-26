@@ -5,18 +5,18 @@
         },
         {
             "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "suspension_arm_F_L_fixed",
+            "name": "suspension_arm_F_R_fixed",
             "nodeSelectionList": {
                 "selectedNodes": [
                     "Scene",
                     "Scene._Hemi_1",
                     "Scene._Hemi_2",
-                    "Scene.suspension_arm_F_L",
-                    "Scene.suspension_arm_F_L.UV0",
-                    "Scene.suspension_arm_F_L.tex_03",
-                    "Scene.suspension_arm_F_L.tex_03a",
-                    "Scene.suspension_arm_F_L.tex_05",
-                    "Scene.suspension_arm_F_L.transform"
+                    "Scene.suspension_arm_F_R",
+                    "Scene.suspension_arm_F_R.UV0",
+                    "Scene.suspension_arm_F_R.tex_03",
+                    "Scene.suspension_arm_F_R.tex_03a",
+                    "Scene.suspension_arm_F_R.tex_05",
+                    "Scene.suspension_arm_F_R.transform"
                 ]
             },
             "rules": {
@@ -26,23 +26,23 @@
                     }
                 ]
             },
-            "id": "{AC4CE99C-DE21-42B6-9A1D-15AE323F7E63}"
+            "id": "{8BAF7E31-F3AF-49B5-82A6-FD3E4353A844}"
         },
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{0A8CDB5A-BB40-47BA-9DF1-01132C2F1D05}",
-            "name": "suspension_arm_F_L_fixed",
+            "id": "{47BC944E-22D3-4BFA-AAB0-72292792A3A1}",
+            "name": "suspension_arm_F_R_fixed",
             "NodeSelectionList": {
                 "selectedNodes": [
                     "Scene",
                     "Scene._Hemi_1",
                     "Scene._Hemi_2",
-                    "Scene.suspension_arm_F_L",
-                    "Scene.suspension_arm_F_L.UV0",
-                    "Scene.suspension_arm_F_L.tex_03",
-                    "Scene.suspension_arm_F_L.tex_03a",
-                    "Scene.suspension_arm_F_L.tex_05",
-                    "Scene.suspension_arm_F_L.transform"
+                    "Scene.suspension_arm_F_R",
+                    "Scene.suspension_arm_F_R.UV0",
+                    "Scene.suspension_arm_F_R.tex_03",
+                    "Scene.suspension_arm_F_R.tex_03a",
+                    "Scene.suspension_arm_F_R.tex_05",
+                    "Scene.suspension_arm_F_R.transform"
                 ]
             },
             "export method": 1,

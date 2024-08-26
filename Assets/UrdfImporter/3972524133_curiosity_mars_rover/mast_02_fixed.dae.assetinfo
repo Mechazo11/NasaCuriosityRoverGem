@@ -5,17 +5,17 @@
         },
         {
             "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "suspension_steer_F_L_fixed",
+            "name": "mast_02_fixed",
             "nodeSelectionList": {
                 "selectedNodes": [
                     "Scene",
                     "Scene._Hemi_1",
                     "Scene._Hemi_2",
-                    "Scene.suspension_steer_F_L",
-                    "Scene.suspension_steer_F_L.UV0",
-                    "Scene.suspension_steer_F_L.tex_02",
-                    "Scene.suspension_steer_F_L.tex_03",
-                    "Scene.suspension_steer_F_L.transform"
+                    "Scene.mast_02",
+                    "Scene.mast_02.Col0",
+                    "Scene.mast_02.UV0",
+                    "Scene.mast_02.tex_04",
+                    "Scene.mast_02.transform"
                 ]
             },
             "rules": {
@@ -25,22 +25,22 @@
                     }
                 ]
             },
-            "id": "{1B14257E-A25A-429B-A10C-3333297303C0}"
+            "id": "{6522E8EC-9009-4A76-A34D-2BDEFDE92EE3}"
         },
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{CBE29397-FE22-4B09-ADC2-443F49CBC569}",
-            "name": "suspension_steer_F_L_fixed",
+            "id": "{C4A1CF51-50CA-4C76-9297-854209BC9B82}",
+            "name": "mast_02_fixed",
             "NodeSelectionList": {
                 "selectedNodes": [
                     "Scene",
                     "Scene._Hemi_1",
                     "Scene._Hemi_2",
-                    "Scene.suspension_steer_F_L",
-                    "Scene.suspension_steer_F_L.UV0",
-                    "Scene.suspension_steer_F_L.tex_02",
-                    "Scene.suspension_steer_F_L.tex_03",
-                    "Scene.suspension_steer_F_L.transform"
+                    "Scene.mast_02",
+                    "Scene.mast_02.Col0",
+                    "Scene.mast_02.UV0",
+                    "Scene.mast_02.tex_04",
+                    "Scene.mast_02.transform"
                 ]
             },
             "export method": 1,
@@ -48,7 +48,7 @@
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "tex_02"
+                        "Name": "tex_04"
                     }
                 ]
             }

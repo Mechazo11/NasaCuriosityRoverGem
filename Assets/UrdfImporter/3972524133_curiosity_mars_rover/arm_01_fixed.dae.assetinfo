@@ -29,11 +29,11 @@
                     }
                 ]
             },
-            "id": "{D78BC99C-0145-4CE3-89EF-7FA3E191EC4E}"
+            "id": "{7E0139BF-2CA4-439C-A557-81F0D9D9AFDA}"
         },
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{390CB35A-5475-4671-8A73-32CE9BE397B5}",
+            "id": "{27A55253-B29C-4CDF-80AA-00EBAC54FF9A}",
             "name": "arm_01_fixed",
             "NodeSelectionList": {
                 "selectedNodes": [
