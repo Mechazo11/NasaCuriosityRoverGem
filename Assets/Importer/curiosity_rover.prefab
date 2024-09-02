@@ -1018,7 +1018,13 @@
                         "SolverVelocityIterations": 10,
                         "Articulation Joint Type": 1,
                         "Angular Limit Negative": -22.918312072753906,
-                        "Angular Limit Positive": 22.918312072753906
+                        "Angular Limit Positive": 22.918312072753906,
+                        "Motor configuration": {
+                            "UseMotor": true,
+                            "ForceLimit": 100000.0,
+                            "Stiffness": 50000.0,
+                            "Damping": 50000.0
+                        }
                     }
                 },
                 "EditorDisabledCompositionComponent": {
@@ -1031,7 +1037,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 4421936758381915020
+                    "Id": 4421936758381915020,
+                    "Child Entity Order": [
+                        "Entity_[1055365484224]",
+                        "Entity_[947991301824]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -5987,7 +5997,13 @@
                         "SolverVelocityIterations": 10,
                         "Articulation Joint Type": 1,
                         "Angular Limit Negative": -22.918312072753906,
-                        "Angular Limit Positive": 22.918312072753906
+                        "Angular Limit Positive": 22.918312072753906,
+                        "Motor configuration": {
+                            "UseMotor": true,
+                            "ForceLimit": 100000.0,
+                            "Stiffness": 10000.0,
+                            "Damping": 10000.0
+                        }
                     }
                 },
                 "EditorDisabledCompositionComponent": {
@@ -6000,7 +6016,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 12732716850756355420
+                    "Id": 12732716850756355420,
+                    "Child Entity Order": [
+                        "Entity_[999530909376]",
+                        "Entity_[866386923200]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -6142,7 +6162,13 @@
                         "SolverVelocityIterations": 10,
                         "Articulation Joint Type": 1,
                         "Angular Limit Negative": -22.918312072753906,
-                        "Angular Limit Positive": 22.918312072753906
+                        "Angular Limit Positive": 22.918312072753906,
+                        "Motor configuration": {
+                            "UseMotor": true,
+                            "ForceLimit": 100000.0,
+                            "Stiffness": 10000.0,
+                            "Damping": 10000.0
+                        }
                     }
                 },
                 "EditorDisabledCompositionComponent": {
@@ -6155,7 +6181,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 5166185138524153550
+                    "Id": 5166185138524153550,
+                    "Child Entity Order": [
+                        "Entity_[1021005745856]",
+                        "Entity_[874976857792]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -6457,7 +6487,13 @@
                         "SolverVelocityIterations": 10,
                         "Articulation Joint Type": 1,
                         "Angular Limit Negative": -22.918312072753906,
-                        "Angular Limit Positive": 22.918312072753906
+                        "Angular Limit Positive": 22.918312072753906,
+                        "Motor configuration": {
+                            "UseMotor": true,
+                            "ForceLimit": 100000.0,
+                            "Stiffness": 50000.0,
+                            "Damping": 50000.0
+                        }
                     }
                 },
                 "EditorDisabledCompositionComponent": {
@@ -6470,7 +6506,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 7065895871038541324
+                    "Id": 7065895871038541324,
+                    "Child Entity Order": [
+                        "Entity_[905041628864]",
+                        "Entity_[892156726976]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
