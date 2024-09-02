@@ -1112,10 +1112,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{4185E159-66AA-570F-835F-AD2E1DB5803B}",
+                                    "guid": "{3A0C8637-E6C8-5E9A-B956-EFAFB7DF6F90}",
                                     "subId": 270132502
                                 },
-                                "loadBehavior": "PreLoad"
+                                "assetHint": "urdfimporter/677588509_curiosity_mars_rover/suspension_arm_b_l_fixed.dae.azmodel"
                             }
                         }
                     }
@@ -2328,10 +2328,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{237424FF-01B0-5E0A-BE71-CE0BC2278F27}",
+                                    "guid": "{A0F18450-4565-52AB-BD30-FE8555B91D21}",
                                     "subId": 276069808
                                 },
-                                "loadBehavior": "PreLoad"
+                                "assetHint": "urdfimporter/677588509_curiosity_mars_rover/wheel_fixed.dae.azmodel"
                             }
                         }
                     }
@@ -4704,10 +4704,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{02845A67-44E0-5E15-B817-99B13E082D50}",
+                                    "guid": "{2EBA9C3C-50B7-57FD-AB9D-C62CD6748F89}",
                                     "subId": 281975798
                                 },
-                                "loadBehavior": "PreLoad"
+                                "assetHint": "urdfimporter/677588509_curiosity_mars_rover/suspension_arm_b2_l_fixed.dae.azmodel"
                             }
                         }
                     }
