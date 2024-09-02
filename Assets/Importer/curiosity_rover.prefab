@@ -8222,7 +8222,13 @@
                             89.99999237060547
                         ],
                         "Angular Limit Negative": 0.0,
-                        "Angular Limit Positive": 89.95437622070313
+                        "Angular Limit Positive": 89.95437622070313,
+                        "Motor configuration": {
+                            "UseMotor": true,
+                            "ForceLimit": 100000.0,
+                            "Stiffness": 100000.0,
+                            "Damping": 100000.0
+                        }
                     }
                 },
                 "EditorDisabledCompositionComponent": {
@@ -8235,7 +8241,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 16577245088367222565
+                    "Id": 16577245088367222565,
+                    "Child Entity Order": [
+                        "Entity_[1197099404992]",
+                        "Entity_[978056072896]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
