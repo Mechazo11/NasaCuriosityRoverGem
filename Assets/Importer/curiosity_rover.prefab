@@ -8095,10 +8095,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{237424FF-01B0-5E0A-BE71-CE0BC2278F27}",
+                                    "guid": "{A0F18450-4565-52AB-BD30-FE8555B91D21}",
                                     "subId": 276069808
                                 },
-                                "loadBehavior": "PreLoad"
+                                "assetHint": "urdfimporter/677588509_curiosity_mars_rover/wheel_fixed.dae.azmodel"
                             }
                         }
                     }
