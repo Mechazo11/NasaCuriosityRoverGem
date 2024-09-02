@@ -5,17 +5,18 @@
         },
         {
             "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "mast_02_fixed",
+            "name": "suspension_arm_F_L_fixed",
             "nodeSelectionList": {
                 "selectedNodes": [
                     "Scene",
                     "Scene._Hemi_1",
                     "Scene._Hemi_2",
-                    "Scene.mast_02",
-                    "Scene.mast_02.Col0",
-                    "Scene.mast_02.UV0",
-                    "Scene.mast_02.tex_04",
-                    "Scene.mast_02.transform"
+                    "Scene.suspension_arm_F_L",
+                    "Scene.suspension_arm_F_L.UV0",
+                    "Scene.suspension_arm_F_L.tex_03",
+                    "Scene.suspension_arm_F_L.tex_03a",
+                    "Scene.suspension_arm_F_L.tex_05",
+                    "Scene.suspension_arm_F_L.transform"
                 ]
             },
             "rules": {
@@ -25,22 +26,23 @@
                     }
                 ]
             },
-            "id": "{D0E25BA2-2C50-41B0-9F91-3B8829B5CD10}"
+            "id": "{11112186-3F2F-49C0-B412-24600B8B7106}"
         },
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{88DBB197-AC70-4D02-8D13-731D88D5AE8C}",
-            "name": "mast_02_fixed",
+            "id": "{03B25709-FB6A-408D-B79E-7CDA2F04FCFA}",
+            "name": "suspension_arm_F_L_fixed",
             "NodeSelectionList": {
                 "selectedNodes": [
                     "Scene",
                     "Scene._Hemi_1",
                     "Scene._Hemi_2",
-                    "Scene.mast_02",
-                    "Scene.mast_02.Col0",
-                    "Scene.mast_02.UV0",
-                    "Scene.mast_02.tex_04",
-                    "Scene.mast_02.transform"
+                    "Scene.suspension_arm_F_L",
+                    "Scene.suspension_arm_F_L.UV0",
+                    "Scene.suspension_arm_F_L.tex_03",
+                    "Scene.suspension_arm_F_L.tex_03a",
+                    "Scene.suspension_arm_F_L.tex_05",
+                    "Scene.suspension_arm_F_L.transform"
                 ]
             },
             "export method": 1,
@@ -48,7 +50,7 @@
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "tex_04"
+                        "Name": "tex_03a"
                     }
                 ]
             }

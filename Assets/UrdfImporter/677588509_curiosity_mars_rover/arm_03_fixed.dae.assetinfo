@@ -5,17 +5,19 @@
         },
         {
             "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "suspension_steer_F_R_fixed",
+            "name": "arm_03_fixed",
             "nodeSelectionList": {
                 "selectedNodes": [
                     "Scene",
                     "Scene._Hemi_1",
                     "Scene._Hemi_2",
-                    "Scene.suspension_steer_F_R",
-                    "Scene.suspension_steer_F_R.UV0",
-                    "Scene.suspension_steer_F_R.tex_02",
-                    "Scene.suspension_steer_F_R.tex_03",
-                    "Scene.suspension_steer_F_R.transform"
+                    "Scene.arm_03",
+                    "Scene.arm_03.UV0",
+                    "Scene.arm_03.tex_01",
+                    "Scene.arm_03.tex_03",
+                    "Scene.arm_03.tex_04",
+                    "Scene.arm_03.tex_05",
+                    "Scene.arm_03.transform"
                 ]
             },
             "rules": {
@@ -25,22 +27,24 @@
                     }
                 ]
             },
-            "id": "{88418091-5921-46B4-9588-308941FAEEB8}"
+            "id": "{9B964921-DF71-4880-A840-F9C330D33034}"
         },
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{7ED32B70-6040-437C-9571-A1225BAB9AA1}",
-            "name": "suspension_steer_F_R_fixed",
+            "id": "{3192D617-F421-4BA8-AA45-83AA95445FDB}",
+            "name": "arm_03_fixed",
             "NodeSelectionList": {
                 "selectedNodes": [
                     "Scene",
                     "Scene._Hemi_1",
                     "Scene._Hemi_2",
-                    "Scene.suspension_steer_F_R",
-                    "Scene.suspension_steer_F_R.UV0",
-                    "Scene.suspension_steer_F_R.tex_02",
-                    "Scene.suspension_steer_F_R.tex_03",
-                    "Scene.suspension_steer_F_R.transform"
+                    "Scene.arm_03",
+                    "Scene.arm_03.UV0",
+                    "Scene.arm_03.tex_01",
+                    "Scene.arm_03.tex_03",
+                    "Scene.arm_03.tex_04",
+                    "Scene.arm_03.tex_05",
+                    "Scene.arm_03.transform"
                 ]
             },
             "export method": 1,
@@ -48,7 +52,7 @@
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "tex_03"
+                        "Name": "tex_05"
                     }
                 ]
             }

@@ -2,6 +2,8 @@
 
 # Nasa Curiosity Rover Gem for Open 3D Engine (O3DE)
 
+**TODO** no longer updated until we figure out how to correctly make a Gem from imported URDF files
+
 **TODO** introduction, mention it was created as part of the NASA Space Sim Challenge 2024
 
 ## Description

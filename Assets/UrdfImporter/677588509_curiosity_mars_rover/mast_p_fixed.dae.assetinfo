@@ -28,11 +28,11 @@
                     }
                 ]
             },
-            "id": "{2B2A1AE6-B1E7-4848-BC6D-099795B4D0B6}"
+            "id": "{F8C17F6B-F3D8-45C3-89AE-DEE0D4553D3A}"
         },
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{CEED28B1-032E-46C9-849D-808567833B86}",
+            "id": "{6B921808-7CA7-4BC1-9DAF-59F7BDED5E5E}",
             "name": "mast_p_fixed",
             "NodeSelectionList": {
                 "selectedNodes": [

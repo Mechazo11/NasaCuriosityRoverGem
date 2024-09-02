@@ -5,19 +5,16 @@
         },
         {
             "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "arm_02_fixed",
+            "name": "wheel_fixed",
             "nodeSelectionList": {
                 "selectedNodes": [
                     "Scene",
                     "Scene._Hemi_1",
                     "Scene._Hemi_2",
-                    "Scene.arm_02",
-                    "Scene.arm_02.UV0",
-                    "Scene.arm_02.tex_01",
-                    "Scene.arm_02.tex_03",
-                    "Scene.arm_02.tex_04",
-                    "Scene.arm_02.tex_05",
-                    "Scene.arm_02.transform"
+                    "Scene.wheel_01_L",
+                    "Scene.wheel_01_L.UV0",
+                    "Scene.wheel_01_L.transform",
+                    "Scene.wheel_01_L.wheels"
                 ]
             },
             "rules": {
@@ -27,7 +24,7 @@
                     }
                 ]
             },
-            "id": "{ACF50CEE-A529-40C0-80B6-D168D4CD8674}"
+            "id": "{C2121D10-58F5-4CEF-870F-B5F23AFD7131}"
         }
     ]
 }
