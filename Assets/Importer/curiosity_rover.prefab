@@ -7216,10 +7216,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{4101D7AA-3109-5E19-A2E8-6788A92502BA}",
+                                    "guid": "{ED6B4869-CD64-503A-A40D-1C6B06C52672}",
                                     "subId": 269667565
                                 },
-                                "loadBehavior": "PreLoad"
+                                "assetHint": "urdfimporter/677588509_curiosity_mars_rover/suspension_steer_b_l_fixed.dae.azmodel"
                             }
                         }
                     }
@@ -7541,10 +7541,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{237424FF-01B0-5E0A-BE71-CE0BC2278F27}",
+                                    "guid": "{A0F18450-4565-52AB-BD30-FE8555B91D21}",
                                     "subId": 276069808
                                 },
-                                "loadBehavior": "PreLoad"
+                                "assetHint": "urdfimporter/677588509_curiosity_mars_rover/wheel_fixed.dae.azmodel"
                             }
                         }
                     }
