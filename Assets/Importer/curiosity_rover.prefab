@@ -7683,10 +7683,8 @@
                         },
                         "DriveModel": {
                             "Limits": {
-                                "LinearLimit": 1.0,
-                                "AngularLimit": 1.0,
-                                "LinearAcceleration": 0.5,
-                                "AngularAcceleration": 0.5
+                                "LinearAcceleration": 1.5,
+                                "AngularAcceleration": 2.5
                             }
                         }
                     }
