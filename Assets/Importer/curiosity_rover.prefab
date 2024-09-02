@@ -2520,7 +2520,13 @@
                             0.0
                         ],
                         "Angular Limit Negative": -34.37746810913086,
-                        "Angular Limit Positive": 34.37746810913086
+                        "Angular Limit Positive": 34.37746810913086,
+                        "Motor configuration": {
+                            "UseMotor": true,
+                            "ForceLimit": 10000.0,
+                            "Stiffness": 10000.0,
+                            "Damping": 10000.0
+                        }
                     }
                 },
                 "EditorDisabledCompositionComponent": {
@@ -6573,7 +6579,13 @@
                             0.0
                         ],
                         "Angular Limit Negative": -34.37746810913086,
-                        "Angular Limit Positive": 34.37746810913086
+                        "Angular Limit Positive": 34.37746810913086,
+                        "Motor configuration": {
+                            "UseMotor": true,
+                            "ForceLimit": 10000.0,
+                            "Stiffness": 10000.0,
+                            "Damping": 10000.0
+                        }
                     }
                 },
                 "EditorDisabledCompositionComponent": {
