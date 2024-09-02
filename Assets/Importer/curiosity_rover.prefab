@@ -4608,7 +4608,12 @@
                         "SolverVelocityIterations": 10,
                         "Articulation Joint Type": 1,
                         "Angular Limit Negative": -68.75493621826172,
-                        "Angular Limit Positive": 68.75493621826172
+                        "Angular Limit Positive": 68.75493621826172,
+                        "Motor configuration": {
+                            "ForceLimit": 10000.0,
+                            "Stiffness": 5000.0,
+                            "Damping": 5000.0
+                        }
                     }
                 },
                 "EditorDisabledCompositionComponent": {
@@ -4621,7 +4626,12 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 4873970178643341329
+                    "Id": 4873970178643341329,
+                    "Child Entity Order": [
+                        "Entity_[1145559797440]",
+                        "Entity_[982351040192]",
+                        "Entity_[1235754110656]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -5454,7 +5464,13 @@
                         "SolverVelocityIterations": 10,
                         "Articulation Joint Type": 1,
                         "Angular Limit Negative": -68.75493621826172,
-                        "Angular Limit Positive": 68.75493621826172
+                        "Angular Limit Positive": 68.75493621826172,
+                        "Motor configuration": {
+                            "UseMotor": true,
+                            "ForceLimit": 10000.0,
+                            "Stiffness": 5000.0,
+                            "Damping": 5000.0
+                        }
                     }
                 },
                 "EditorDisabledCompositionComponent": {
@@ -5467,7 +5483,12 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 2087420580151404507
+                    "Id": 2087420580151404507,
+                    "Child Entity Order": [
+                        "Entity_[1278703783616]",
+                        "Entity_[1214279274176]",
+                        "Entity_[1291588685504]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
