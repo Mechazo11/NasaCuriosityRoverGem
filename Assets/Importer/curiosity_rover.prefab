@@ -2955,6 +2955,8 @@
                     "Id": 4449061455455853280,
                     "Configuration": {
                         "entityId": "",
+                        "Linear damping": 1.5,
+                        "Angular damping": 15.0,
                         "Compute Mass": false,
                         "Mass": 2.069999933242798,
                         "Centre of mass offset": [
@@ -2972,7 +2974,8 @@
                             0.0,
                             0.0,
                             0.05727588012814522
-                        ]
+                        ],
+                        "Maximum Angular Velocity": 3.5
                     },
                     "PhysXSpecificConfiguration": {
                         "SolverPositionIterations": 40,
@@ -7335,6 +7338,8 @@
                     "Id": 11140427429928881081,
                     "Configuration": {
                         "entityId": "",
+                        "Linear damping": 1.5,
+                        "Angular damping": 15.0,
                         "Compute Mass": false,
                         "Mass": 2.069999933242798,
                         "Centre of mass offset": [
@@ -7352,7 +7357,8 @@
                             0.0,
                             0.0,
                             0.05727588012814522
-                        ]
+                        ],
+                        "Maximum Angular Velocity": 3.5
                     },
                     "PhysXSpecificConfiguration": {
                         "SolverPositionIterations": 40,
@@ -7730,7 +7736,6 @@
                                         "Entity_[1136969862848]"
                                     ],
                                     "WheelRadius": 0.24199999868869781,
-                                    "IsSteering": true,
                                     "IsDrive": true
                                 },
                                 {
@@ -7755,8 +7760,10 @@
                         },
                         "DriveModel": {
                             "Limits": {
-                                "LinearAcceleration": 1.5,
-                                "AngularAcceleration": 2.5
+                                "LinearLimit": 1.0,
+                                "AngularLimit": 1.0,
+                                "LinearAcceleration": 0.75,
+                                "AngularAcceleration": 0.75
                             }
                         }
                     }
