@@ -7650,6 +7650,34 @@
                     "m_template": {
                         "$type": "SkidSteeringModelComponent",
                         "VehicleConfiguration": {
+                            "AxlesConfigurations": [
+                                {
+                                    "AxleTag": "front",
+                                    "AxleWheels": [
+                                        "Entity_[913631563456]",
+                                        "Entity_[1136969862848]"
+                                    ],
+                                    "WheelRadius": 0.24199999868869781,
+                                    "IsSteering": true,
+                                    "IsDrive": true
+                                },
+                                {
+                                    "AxleTag": "middle",
+                                    "AxleWheels": [
+                                        "Entity_[1111200059072]",
+                                        "Entity_[965171171008]"
+                                    ],
+                                    "WheelRadius": 0.24199999868869781
+                                },
+                                {
+                                    "AxleTag": "rear",
+                                    "AxleWheels": [
+                                        "Entity_[939401367232]",
+                                        "Entity_[1094020189888]"
+                                    ],
+                                    "WheelRadius": 0.24199999868869781
+                                }
+                            ],
                             "Track": 2.7100000381469727,
                             "Wheelbase": 2.819999933242798
                         },
