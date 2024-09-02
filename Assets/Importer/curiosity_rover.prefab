@@ -666,10 +666,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{844EB480-8925-539F-A8B8-F407705FC33C}",
+                                    "guid": "{B5175F59-D404-5746-9FFA-8895428866FB}",
                                     "subId": 276067019
                                 },
-                                "loadBehavior": "PreLoad"
+                                "assetHint": "urdfimporter/677588509_curiosity_mars_rover/arm_01_fixed.dae.azmodel"
                             }
                         }
                     }
@@ -3537,10 +3537,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{E4BDED41-3469-545F-A80D-B76B9F231981}",
+                                    "guid": "{7647471A-9894-5FAA-A50C-42ACDEC1717A}",
                                     "subId": 270359023
                                 },
-                                "loadBehavior": "PreLoad"
+                                "assetHint": "urdfimporter/677588509_curiosity_mars_rover/arm_tools_fixed.dae.azmodel"
                             }
                         }
                     }
@@ -3859,10 +3859,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{022885ED-A181-54BC-B63F-CC24BEF1AAD3}",
+                                    "guid": "{25FB3274-9D55-5413-B621-03565A5542B9}",
                                     "subId": 278685782
                                 },
-                                "loadBehavior": "PreLoad"
+                                "assetHint": "urdfimporter/677588509_curiosity_mars_rover/arm_02_fixed.dae.azmodel"
                             }
                         }
                     }
@@ -5200,10 +5200,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{BB10D9A8-5805-5D82-B4D7-936DB5212A67}",
+                                    "guid": "{D498E44D-FAE7-534C-ABFA-87D754A82510}",
                                     "subId": 273440108
                                 },
-                                "loadBehavior": "PreLoad"
+                                "assetHint": "urdfimporter/677588509_curiosity_mars_rover/arm_04_fixed.dae.azmodel"
                             }
                         }
                     }
@@ -5705,10 +5705,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{A11525F6-C408-59B1-9117-673D5DC4E313}",
+                                    "guid": "{A03CB333-AF4D-5DC2-ADE0-93DFF32EF5CD}",
                                     "subId": 283861986
                                 },
-                                "loadBehavior": "PreLoad"
+                                "assetHint": "urdfimporter/677588509_curiosity_mars_rover/arm_03_fixed.dae.azmodel"
                             }
                         }
                     }
