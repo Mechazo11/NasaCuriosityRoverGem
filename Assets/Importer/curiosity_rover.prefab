@@ -1903,21 +1903,6 @@
             "Id": "Entity_[1094020189888]",
             "Name": "back_wheel_R",
             "Components": {
-                "EditorArticulationLinkComponent": {
-                    "$type": "EditorArticulationLinkComponent",
-                    "Id": 4718131419611873468,
-                    "ArticulationConfiguration": {
-                        "entityId": "",
-                        "Mass": 2.069999933242798,
-                        "SolverPositionIterations": 40,
-                        "SolverVelocityIterations": 10,
-                        "Articulation Joint Type": 1,
-                        "Is Limited": false,
-                        "Motor configuration": {
-                            "UseMotor": true
-                        }
-                    }
-                },
                 "EditorColliderComponent": {
                     "$type": "EditorColliderComponent",
                     "Id": 855103164560509753,
@@ -1966,7 +1951,26 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 11773948368399348571
+                    "Id": 11773948368399348571,
+                    "Child Entity Order": [
+                        "Entity_[1098315157184]"
+                    ]
+                },
+                "EditorHingeJointComponent": {
+                    "$type": "EditorHingeJointComponent",
+                    "Id": 14104329115808293085,
+                    "Configuration": {
+                        "Parent Entity": "Entity_[990940974784]",
+                        "Child Entity": "Entity_[1094020189888]"
+                    },
+                    "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Limited": false
+                        }
+                    },
+                    "Motor": {
+                        "UseMotor": true
+                    }
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -1984,6 +1988,35 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 17072205579621576218
                 },
+                "EditorRigidBodyComponent": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 2004827468299526327,
+                    "Configuration": {
+                        "entityId": "",
+                        "Compute Mass": false,
+                        "Mass": 2.069999933242798,
+                        "Centre of mass offset": [
+                            2.290531542215035e-9,
+                            0.000026647116101230495,
+                            0.0000018213722796645015
+                        ],
+                        "Inertia tensor": [
+                            0.060803934931755066,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.057281460613012314,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.05727588012814522
+                        ]
+                    },
+                    "PhysXSpecificConfiguration": {
+                        "SolverPositionIterations": 40,
+                        "SolverVelocityIterations": 10
+                    }
+                },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 15889118342966260412
@@ -1992,9 +2025,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 875936513239405852,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "back_wheel_R"
-                        },
                         "Frame Name": "back_wheel_R",
                         "Joint Name": "back_wheel_R_joint"
                     }
@@ -2014,6 +2044,14 @@
                             3.3350524564212947e-9,
                             -179.99996948242188
                         ]
+                    }
+                },
+                "WheelControllerComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 9155680849300616148,
+                    "m_template": {
+                        "$type": "WheelControllerComponent",
+                        "SteeringEntity": ""
                     }
                 }
             }
@@ -2804,21 +2842,6 @@
             "Id": "Entity_[1136969862848]",
             "Name": "front_wheel_R",
             "Components": {
-                "EditorArticulationLinkComponent": {
-                    "$type": "EditorArticulationLinkComponent",
-                    "Id": 1239099965275615438,
-                    "ArticulationConfiguration": {
-                        "entityId": "",
-                        "Mass": 2.069999933242798,
-                        "SolverPositionIterations": 40,
-                        "SolverVelocityIterations": 10,
-                        "Articulation Joint Type": 1,
-                        "Is Limited": false,
-                        "Motor configuration": {
-                            "UseMotor": true
-                        }
-                    }
-                },
                 "EditorColliderComponent": {
                     "$type": "EditorColliderComponent",
                     "Id": 3105343558578742442,
@@ -2867,7 +2890,26 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 4337572895107031263
+                    "Id": 4337572895107031263,
+                    "Child Entity Order": [
+                        "Entity_[1141264830144]"
+                    ]
+                },
+                "EditorHingeJointComponent": {
+                    "$type": "EditorHingeJointComponent",
+                    "Id": 2178962036359943212,
+                    "Configuration": {
+                        "Parent Entity": "Entity_[1128379928256]",
+                        "Child Entity": "Entity_[1136969862848]"
+                    },
+                    "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Limited": false
+                        }
+                    },
+                    "Motor": {
+                        "UseMotor": true
+                    }
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -2885,6 +2927,35 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 11905935575958071697
                 },
+                "EditorRigidBodyComponent": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 4449061455455853280,
+                    "Configuration": {
+                        "entityId": "",
+                        "Compute Mass": false,
+                        "Mass": 2.069999933242798,
+                        "Centre of mass offset": [
+                            2.290531542215035e-9,
+                            0.000026647116101230495,
+                            0.0000018213722796645015
+                        ],
+                        "Inertia tensor": [
+                            0.060803934931755066,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.057281460613012314,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.05727588012814522
+                        ]
+                    },
+                    "PhysXSpecificConfiguration": {
+                        "SolverPositionIterations": 40,
+                        "SolverVelocityIterations": 10
+                    }
+                },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 7562533077410137409
@@ -2893,9 +2964,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 4124276444421159217,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "front_wheel_R"
-                        },
                         "Frame Name": "front_wheel_R",
                         "Joint Name": "front_wheel_R_joint"
                     }
@@ -2915,6 +2983,14 @@
                             -3.3350529005105045e-9,
                             -179.99998474121094
                         ]
+                    }
+                },
+                "WheelControllerComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 6230981247508763594,
+                    "m_template": {
+                        "$type": "WheelControllerComponent",
+                        "SteeringEntity": ""
                     }
                 }
             }
@@ -8248,21 +8324,6 @@
             "Id": "Entity_[965171171008]",
             "Name": "middle_wheel_R",
             "Components": {
-                "EditorArticulationLinkComponent": {
-                    "$type": "EditorArticulationLinkComponent",
-                    "Id": 12460108500037875471,
-                    "ArticulationConfiguration": {
-                        "entityId": "",
-                        "Mass": 2.069999933242798,
-                        "SolverPositionIterations": 40,
-                        "SolverVelocityIterations": 10,
-                        "Articulation Joint Type": 1,
-                        "Is Limited": false,
-                        "Motor configuration": {
-                            "UseMotor": true
-                        }
-                    }
-                },
                 "EditorColliderComponent": {
                     "$type": "EditorColliderComponent",
                     "Id": 10232670422907983792,
@@ -8311,7 +8372,26 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 1241510460793683316
+                    "Id": 1241510460793683316,
+                    "Child Entity Order": [
+                        "Entity_[969466138304]"
+                    ]
+                },
+                "EditorHingeJointComponent": {
+                    "$type": "EditorHingeJointComponent",
+                    "Id": 1603040776084741043,
+                    "Configuration": {
+                        "Parent Entity": "Entity_[1291588685504]",
+                        "Child Entity": "Entity_[965171171008]"
+                    },
+                    "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Limited": false
+                        }
+                    },
+                    "Motor": {
+                        "UseMotor": true
+                    }
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -8329,6 +8409,35 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 7916394543649304595
                 },
+                "EditorRigidBodyComponent": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 13049330740675390545,
+                    "Configuration": {
+                        "entityId": "",
+                        "Compute Mass": false,
+                        "Mass": 2.069999933242798,
+                        "Centre of mass offset": [
+                            2.290531542215035e-9,
+                            0.000026647116101230495,
+                            0.0000018213722796645015
+                        ],
+                        "Inertia tensor": [
+                            0.060803934931755066,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.057281460613012314,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.05727588012814522
+                        ]
+                    },
+                    "PhysXSpecificConfiguration": {
+                        "SolverPositionIterations": 40,
+                        "SolverVelocityIterations": 10
+                    }
+                },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 1697175050505647503
@@ -8337,9 +8446,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 3087731102190666891,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "middle_wheel_R"
-                        },
                         "Frame Name": "middle_wheel_R",
                         "Joint Name": "middle_wheel_R_joint"
                     }
@@ -8354,6 +8460,14 @@
                             3.3350524564212947e-9,
                             -179.99996948242188
                         ]
+                    }
+                },
+                "WheelControllerComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 1456423870978264288,
+                    "m_template": {
+                        "$type": "WheelControllerComponent",
+                        "SteeringEntity": ""
                     }
                 }
             }
