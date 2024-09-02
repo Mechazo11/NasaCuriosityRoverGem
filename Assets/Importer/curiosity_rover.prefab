@@ -3617,6 +3617,7 @@
                     "ArticulationConfiguration": {
                         "entityId": "",
                         "Mass": 6.0,
+                        "Gravity Enabled": false,
                         "SolverPositionIterations": 40,
                         "SolverVelocityIterations": 10,
                         "Articulation Joint Type": 1,
@@ -7750,10 +7751,10 @@
                         },
                         "DriveModel": {
                             "Limits": {
-                                "LinearLimit": 1.5,
-                                "AngularLimit": 2.5,
-                                "LinearAcceleration": 0.75,
-                                "AngularAcceleration": 1.25
+                                "LinearLimit": 0.5,
+                                "AngularLimit": 0.5,
+                                "LinearAcceleration": 0.05000000074505806,
+                                "AngularAcceleration": 0.05000000074505806
                             }
                         }
                     }
