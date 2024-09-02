@@ -2251,21 +2251,6 @@
             "Id": "Entity_[1111200059072]",
             "Name": "middle_wheel_L",
             "Components": {
-                "EditorArticulationLinkComponent": {
-                    "$type": "EditorArticulationLinkComponent",
-                    "Id": 9057398528497183997,
-                    "ArticulationConfiguration": {
-                        "entityId": "",
-                        "Mass": 2.069999933242798,
-                        "SolverPositionIterations": 40,
-                        "SolverVelocityIterations": 10,
-                        "Articulation Joint Type": 1,
-                        "Is Limited": false,
-                        "Motor configuration": {
-                            "UseMotor": true
-                        }
-                    }
-                },
                 "EditorColliderComponent": {
                     "$type": "EditorColliderComponent",
                     "Id": 13832622967474781760,
@@ -2314,7 +2299,26 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 3135940658352950173
+                    "Id": 3135940658352950173,
+                    "Child Entity Order": [
+                        "Entity_[1115495026368]"
+                    ]
+                },
+                "EditorHingeJointComponent": {
+                    "$type": "EditorHingeJointComponent",
+                    "Id": 3573275122168711984,
+                    "Configuration": {
+                        "Parent Entity": "Entity_[1145559797440]",
+                        "Child Entity": "Entity_[1111200059072]"
+                    },
+                    "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Limited": false
+                        }
+                    },
+                    "Motor": {
+                        "UseMotor": true
+                    }
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -2332,6 +2336,35 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 7119652626213966820
                 },
+                "EditorRigidBodyComponent": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 534137961192543820,
+                    "Configuration": {
+                        "entityId": "",
+                        "Compute Mass": false,
+                        "Mass": 2.069999933242798,
+                        "Centre of mass offset": [
+                            2.290531542215035e-9,
+                            0.000026647116101230495,
+                            0.0000018213722796645015
+                        ],
+                        "Inertia tensor": [
+                            0.060803934931755066,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.057281460613012314,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.05727588012814522
+                        ]
+                    },
+                    "PhysXSpecificConfiguration": {
+                        "SolverPositionIterations": 40,
+                        "SolverVelocityIterations": 10
+                    }
+                },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 143965010721872311
@@ -2340,9 +2373,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 10227464752903458365,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "middle_wheel_L"
-                        },
                         "Frame Name": "middle_wheel_L",
                         "Joint Name": "middle_wheel_L_joint"
                     }
@@ -2351,6 +2381,14 @@
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 4180526362489413601,
                     "Parent Entity": "Entity_[1145559797440]"
+                },
+                "WheelControllerComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 6321410654371213645,
+                    "m_template": {
+                        "$type": "WheelControllerComponent",
+                        "SteeringEntity": ""
+                    }
                 }
             }
         },
@@ -7122,6 +7160,22 @@
                         "Entity_[917926530752]"
                     ]
                 },
+                "EditorHingeJointComponent": {
+                    "$type": "EditorHingeJointComponent",
+                    "Id": 9903200183555316975,
+                    "Configuration": {
+                        "Parent Entity": "Entity_[1154149732032]",
+                        "Child Entity": "Entity_[913631563456]"
+                    },
+                    "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Limited": false
+                        }
+                    },
+                    "Motor": {
+                        "UseMotor": true
+                    }
+                },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
                     "Id": 6108174344582843014
@@ -7163,7 +7217,8 @@
                         ]
                     },
                     "PhysXSpecificConfiguration": {
-                        "SolverPositionIterations": 40
+                        "SolverPositionIterations": 40,
+                        "SolverVelocityIterations": 10
                     }
                 },
                 "EditorVisibilityComponent": {
@@ -7188,7 +7243,7 @@
                     "Id": 6906110936737732,
                     "m_template": {
                         "$type": "WheelControllerComponent",
-                        "SteeringEntity": ""
+                        "SteeringEntity": "Entity_[1111200059072]"
                     }
                 }
             }
@@ -7608,21 +7663,6 @@
             "Id": "Entity_[939401367232]",
             "Name": "back_wheel_L",
             "Components": {
-                "EditorArticulationLinkComponent": {
-                    "$type": "EditorArticulationLinkComponent",
-                    "Id": 4127855868458775017,
-                    "ArticulationConfiguration": {
-                        "entityId": "",
-                        "Mass": 2.069999933242798,
-                        "SolverPositionIterations": 40,
-                        "SolverVelocityIterations": 10,
-                        "Articulation Joint Type": 1,
-                        "Is Limited": false,
-                        "Motor configuration": {
-                            "UseMotor": true
-                        }
-                    }
-                },
                 "EditorColliderComponent": {
                     "$type": "EditorColliderComponent",
                     "Id": 15217362062155626343,
@@ -7671,7 +7711,26 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 10430855030303325325
+                    "Id": 10430855030303325325,
+                    "Child Entity Order": [
+                        "Entity_[943696334528]"
+                    ]
+                },
+                "EditorHingeJointComponent": {
+                    "$type": "EditorHingeJointComponent",
+                    "Id": 10377459890988698793,
+                    "Configuration": {
+                        "Parent Entity": "Entity_[1205689339584]",
+                        "Child Entity": "Entity_[939401367232]"
+                    },
+                    "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Limited": false
+                        }
+                    },
+                    "Motor": {
+                        "UseMotor": true
+                    }
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -7689,6 +7748,35 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 14157863958554433456
                 },
+                "EditorRigidBodyComponent": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 6657695288737752394,
+                    "Configuration": {
+                        "entityId": "",
+                        "Compute Mass": false,
+                        "Mass": 2.069999933242798,
+                        "Centre of mass offset": [
+                            2.290531542215035e-9,
+                            0.000026647116101230495,
+                            0.0000018213722796645015
+                        ],
+                        "Inertia tensor": [
+                            0.060803934931755066,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.057281460613012314,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.05727588012814522
+                        ]
+                    },
+                    "PhysXSpecificConfiguration": {
+                        "SolverPositionIterations": 40,
+                        "SolverVelocityIterations": 10
+                    }
+                },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 6055052955777229959
@@ -7697,9 +7785,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 2038792629076406601,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "back_wheel_L"
-                        },
                         "Frame Name": "back_wheel_L",
                         "Joint Name": "back_wheel_L_joint"
                     }
@@ -7708,6 +7793,14 @@
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 8333402150062825896,
                     "Parent Entity": "Entity_[1205689339584]"
+                },
+                "WheelControllerComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 16225400758990875460,
+                    "m_template": {
+                        "$type": "WheelControllerComponent",
+                        "SteeringEntity": ""
+                    }
                 }
             }
         },
