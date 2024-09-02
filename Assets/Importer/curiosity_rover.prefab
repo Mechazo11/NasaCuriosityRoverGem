@@ -37,7 +37,6 @@
                                     "guid": "{F322592F-43BC-50E7-903C-CC231846093F}",
                                     "subId": 276443623
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "objects/_primitives/_cylinder_1x1.fbx.azmodel"
                             }
                         }
@@ -147,7 +146,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 16239361099913453253
+                    "Id": 16239361099913453253,
+                    "Child Entity Order": [
+                        "Entity_[1012415811264]",
+                        "Entity_[1029595680448]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -173,9 +176,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 9747912709185064361,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "chassis_to_arm_01"
-                        },
                         "Frame Name": "chassis_to_arm_01",
                         "Joint Name": "chassis_to_arm_01_joint"
                     }
@@ -208,7 +208,6 @@
                                     "guid": "{F322592F-43BC-50E7-903C-CC231846093F}",
                                     "subId": 276443623
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "objects/_primitives/_cylinder_1x1.fbx.azmodel"
                             }
                         }
@@ -286,7 +285,10 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 13913680462914543559
+                    "Id": 13913680462914543559,
+                    "Child Entity Order": [
+                        "Entity_[930811432640]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -378,7 +380,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 12836935408550133187
+                    "Id": 12836935408550133187,
+                    "Child Entity Order": [
+                        "Entity_[1274408816320]",
+                        "Entity_[1025300713152]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -404,9 +410,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 4545583813385153196,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "suspension_arm_B_R_to_B2_R"
-                        },
                         "Frame Name": "suspension_arm_B_R_to_B2_R",
                         "Joint Name": "suspension_arm_B_R_to_B2_R_joint"
                     }
@@ -444,7 +447,6 @@
                                     "guid": "{F322592F-43BC-50E7-903C-CC231846093F}",
                                     "subId": 276443623
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "objects/_primitives/_cylinder_1x1.fbx.azmodel"
                             }
                         }
@@ -758,7 +760,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 4160152956487699076
+                    "Id": 4160152956487699076,
+                    "Child Entity Order": [
+                        "Entity_[1042480582336]",
+                        "Entity_[1046775549632]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -821,7 +827,6 @@
                                     "guid": "{F322592F-43BC-50E7-903C-CC231846093F}",
                                     "subId": 276443623
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "objects/_primitives/_cylinder_1x1.fbx.azmodel"
                             }
                         }
@@ -1214,7 +1219,12 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 16870334959782666325
+                    "Id": 16870334959782666325,
+                    "Child Entity Order": [
+                        "Entity_[862091955904]",
+                        "Entity_[1063955418816]",
+                        "Entity_[870681890496]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -1410,7 +1420,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 8793042141288618499
+                    "Id": 8793042141288618499,
+                    "Child Entity Order": [
+                        "Entity_[973761105600]",
+                        "Entity_[1072545353408]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -1436,9 +1450,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 10836099496262190666,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "chassis_to_mast_p"
-                        },
                         "Frame Name": "chassis_to_mast_p",
                         "Joint Name": "chassis_to_mast_p_joint"
                     }
@@ -1476,7 +1487,6 @@
                                     "guid": "{F322592F-43BC-50E7-903C-CC231846093F}",
                                     "subId": 276443623
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "objects/_primitives/_cylinder_1x1.fbx.azmodel"
                             }
                         }
@@ -1628,7 +1638,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 9913330182855457836
+                    "Id": 9913330182855457836,
+                    "Child Entity Order": [
+                        "Entity_[1085430255296]",
+                        "Entity_[1089725222592]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -1691,7 +1705,6 @@
                                     "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
                                     "subId": 284301017
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "objects/_primitives/_box_1x1.fbx.azmodel"
                             }
                         }
@@ -2520,7 +2533,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 10009728399884990221
+                    "Id": 10009728399884990221,
+                    "Child Entity Order": [
+                        "Entity_[1128379928256]",
+                        "Entity_[1124084960960]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -2716,7 +2733,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 18253957878476538010
+                    "Id": 18253957878476538010,
+                    "Child Entity Order": [
+                        "Entity_[1136969862848]",
+                        "Entity_[1132674895552]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -2742,9 +2763,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 4958334933064321937,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "suspension_steer_F_R_to_front_wheel_R"
-                        },
                         "Frame Name": "suspension_steer_F_R_to_front_wheel_R",
                         "Joint Name": "suspension_steer_F_R_to_suspension_steer_F_R_to_front_wheel_R_joint"
                     }
@@ -2777,7 +2795,6 @@
                                     "guid": "{F322592F-43BC-50E7-903C-CC231846093F}",
                                     "subId": 276443623
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "objects/_primitives/_cylinder_1x1.fbx.azmodel"
                             }
                         }
@@ -3109,7 +3126,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 2487172990155604629
+                    "Id": 2487172990155604629,
+                    "Child Entity Order": [
+                        "Entity_[1149854764736]",
+                        "Entity_[1111200059072]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -3135,9 +3156,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 17545504685157743566,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "suspension_arm_B2_L_to_middle_wheel_L"
-                        },
                         "Frame Name": "suspension_arm_B2_L_to_middle_wheel_L",
                         "Joint Name": "suspension_arm_B2_L_to_suspension_arm_B2_L_to_middle_wheel_L_joint"
                     }
@@ -3170,7 +3188,6 @@
                                     "guid": "{F322592F-43BC-50E7-903C-CC231846093F}",
                                     "subId": 276443623
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "objects/_primitives/_cylinder_1x1.fbx.azmodel"
                             }
                         }
@@ -3287,7 +3304,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 17443529575648350631
+                    "Id": 17443529575648350631,
+                    "Child Entity Order": [
+                        "Entity_[913631563456]",
+                        "Entity_[1158444699328]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -3313,9 +3334,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 4439090296814666183,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "suspension_steer_F_L_to_front_wheel_L"
-                        },
                         "Frame Name": "suspension_steer_F_L_to_front_wheel_L",
                         "Joint Name": "suspension_steer_F_L_to_suspension_steer_F_L_to_front_wheel_L_joint"
                     }
@@ -3353,7 +3371,6 @@
                                     "guid": "{F322592F-43BC-50E7-903C-CC231846093F}",
                                     "subId": 276443623
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "objects/_primitives/_cylinder_1x1.fbx.azmodel"
                             }
                         }
@@ -3441,7 +3458,12 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 16347162022531582256
+                    "Id": 16347162022531582256,
+                    "Child Entity Order": [
+                        "Entity_[1167034633920]",
+                        "Entity_[1081135288000]",
+                        "Entity_[1038185615040]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -3772,7 +3794,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 1550384325445049576
+                    "Id": 1550384325445049576,
+                    "Child Entity Order": [
+                        "Entity_[1184214503104]",
+                        "Entity_[990940974784]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -4127,7 +4153,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 18156066656374367770
+                    "Id": 18156066656374367770,
+                    "Child Entity Order": [
+                        "Entity_[1201394372288]",
+                        "Entity_[956581236416]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -4153,9 +4183,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 9165410699396874101,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "mast_p_to_mast_02"
-                        },
                         "Frame Name": "mast_p_to_mast_02",
                         "Joint Name": "mast_p_to_mast_02_joint"
                     }
@@ -4188,7 +4215,6 @@
                                     "guid": "{F322592F-43BC-50E7-903C-CC231846093F}",
                                     "subId": 276443623
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "objects/_primitives/_cylinder_1x1.fbx.azmodel"
                             }
                         }
@@ -4298,7 +4324,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 3573729595891482553
+                    "Id": 3573729595891482553,
+                    "Child Entity Order": [
+                        "Entity_[1209984306880]",
+                        "Entity_[939401367232]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -4324,9 +4354,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 13644416659926349586,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "suspension_steer_B_L_to_back_wheel_L"
-                        },
                         "Frame Name": "suspension_steer_B_L_to_back_wheel_L",
                         "Joint Name": "suspension_arm_B2_L_to_suspension_steer_B_L_to_back_wheel_L_joint"
                     }
@@ -4359,7 +4386,6 @@
                                     "guid": "{F322592F-43BC-50E7-903C-CC231846093F}",
                                     "subId": 276443623
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "objects/_primitives/_cylinder_1x1.fbx.azmodel"
                             }
                         }
@@ -4475,7 +4501,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 1508443736560781024
+                    "Id": 1508443736560781024,
+                    "Child Entity Order": [
+                        "Entity_[1218574241472]",
+                        "Entity_[1179919535808]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -4501,9 +4531,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 14432646444277922396,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "suspension_arm_B2_R_to_suspension_steer_B_R"
-                        },
                         "Frame Name": "suspension_arm_B2_R_to_suspension_steer_B_R",
                         "Joint Name": "suspension_arm_B2_R_to_suspension_steer_B_R_joint"
                     }
@@ -4536,7 +4563,6 @@
                                     "guid": "{F322592F-43BC-50E7-903C-CC231846093F}",
                                     "subId": 276443623
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "objects/_primitives/_cylinder_1x1.fbx.azmodel"
                             }
                         }
@@ -4615,7 +4641,12 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 16803304630550430038
+                    "Id": 16803304630550430038,
+                    "Child Entity Order": [
+                        "Entity_[887861759680]",
+                        "Entity_[1227164176064]",
+                        "Entity_[1051070516928]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -4711,7 +4742,6 @@
                                     "guid": "{4E2C0BD0-C40C-567F-83F3-D31EC2451F9E}",
                                     "subId": 273433929
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "assets/urdfimporter/677588509_curiosity_mars_rover/left_axis_jointfix_v2.dae.azmodel"
                             }
                         }
@@ -6019,7 +6049,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 3351597278250043175
+                    "Id": 3351597278250043175,
+                    "Child Entity Order": [
+                        "Entity_[1295883652800]",
+                        "Entity_[965171171008]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -6045,9 +6079,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 12180505469033731334,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "suspension_arm_B2_R_to_middle_wheel_R"
-                        },
                         "Frame Name": "suspension_arm_B2_R_to_middle_wheel_R",
                         "Joint Name": "suspension_arm_B2_R_to_suspension_arm_B2_R_to_middle_wheel_R_joint"
                     }
@@ -6080,7 +6111,6 @@
                                     "guid": "{F322592F-43BC-50E7-903C-CC231846093F}",
                                     "subId": 276443623
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "objects/_primitives/_cylinder_1x1.fbx.azmodel"
                             }
                         }
@@ -6155,7 +6185,10 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 4992468158019355964
+                    "Id": 4992468158019355964,
+                    "Child Entity Order": [
+                        "Entity_[1076840320704]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -6180,7 +6213,14 @@
                 "TransformComponent": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 12683594694947970695,
-                    "Parent Entity": "ContainerEntity"
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
                 }
             }
         },
@@ -6546,7 +6586,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 16295109082401556779
+                    "Id": 16295109082401556779,
+                    "Child Entity Order": [
+                        "Entity_[1154149732032]",
+                        "Entity_[883566792384]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -6889,7 +6933,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 3830263846209356860
+                    "Id": 3830263846209356860,
+                    "Child Entity Order": [
+                        "Entity_[900746661568]",
+                        "Entity_[1162739666624]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -6915,9 +6963,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 6626383134255439449,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "mast_02_to_mast_cameras"
-                        },
                         "Frame Name": "mast_02_to_mast_cameras",
                         "Joint Name": "mast_02_to_mast_cameras_joint"
                     }
@@ -6950,7 +6995,6 @@
                                     "guid": "{F322592F-43BC-50E7-903C-CC231846093F}",
                                     "subId": 276443623
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "objects/_primitives/_cylinder_1x1.fbx.azmodel"
                             }
                         }
@@ -7059,7 +7103,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 12247120207237982447
+                    "Id": 12247120207237982447,
+                    "Child Entity Order": [
+                        "Entity_[909336596160]",
+                        "Entity_[879271825088]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -7085,9 +7133,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 12766826687721380897,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "suspension_arm_F_L_to_suspension_steer_F_L"
-                        },
                         "Frame Name": "suspension_arm_F_L_to_suspension_steer_F_L",
                         "Joint Name": "suspension_arm_F_L_to_suspension_steer_F_L_joint"
                     }
@@ -7125,7 +7170,6 @@
                                     "guid": "{F322592F-43BC-50E7-903C-CC231846093F}",
                                     "subId": 276443623
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "objects/_primitives/_cylinder_1x1.fbx.azmodel"
                             }
                         }
@@ -7414,7 +7458,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 1009442746879763308
+                    "Id": 1009442746879763308,
+                    "Child Entity Order": [
+                        "Entity_[1205689339584]",
+                        "Entity_[926516465344]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -8019,7 +8067,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 828765446285368874
+                    "Id": 828765446285368874,
+                    "Child Entity Order": [
+                        "Entity_[952286269120]",
+                        "Entity_[1231459143360]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -8045,9 +8097,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 11312456406656168923,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "suspension_arm_B_L_to_B2_L"
-                        },
                         "Frame Name": "suspension_arm_B_L_to_B2_L",
                         "Joint Name": "suspension_arm_B_L_to_B2_L_joint"
                     }
@@ -8085,7 +8134,6 @@
                                     "guid": "{F322592F-43BC-50E7-903C-CC231846093F}",
                                     "subId": 276443623
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "objects/_primitives/_cylinder_1x1.fbx.azmodel"
                             }
                         }
@@ -8218,7 +8266,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 8319251884527892471
+                    "Id": 8319251884527892471,
+                    "Child Entity Order": [
+                        "Entity_[896451694272]",
+                        "Entity_[960876203712]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -8781,7 +8833,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 10585838379840477932
+                    "Id": 10585838379840477932,
+                    "Child Entity Order": [
+                        "Entity_[922221498048]",
+                        "Entity_[986646007488]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -8807,9 +8863,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 5496966925046339916,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "suspension_arm_B2_L_to_suspension_steer_B_L"
-                        },
                         "Frame Name": "suspension_arm_B2_L_to_suspension_steer_B_L",
                         "Joint Name": "suspension_arm_B2_L_to_suspension_steer_B_L_joint"
                     }
@@ -8842,7 +8895,6 @@
                                     "guid": "{F322592F-43BC-50E7-903C-CC231846093F}",
                                     "subId": 276443623
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "objects/_primitives/_cylinder_1x1.fbx.azmodel"
                             }
                         }
@@ -8952,7 +9004,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 7126872629217351508
+                    "Id": 7126872629217351508,
+                    "Child Entity Order": [
+                        "Entity_[1094020189888]",
+                        "Entity_[995235942080]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -8978,9 +9034,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 12210105861582463715,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "suspension_steer_B_R_to_back_wheel_R"
-                        },
                         "Frame Name": "suspension_steer_B_R_to_back_wheel_R",
                         "Joint Name": "suspension_arm_B2_R_to_suspension_steer_B_R_to_back_wheel_R_joint"
                     }
@@ -9013,7 +9066,6 @@
                                     "guid": "{F322592F-43BC-50E7-903C-CC231846093F}",
                                     "subId": 276443623
                                 },
-                                "loadBehavior": "PreLoad",
                                 "assetHint": "objects/_primitives/_cylinder_1x1.fbx.azmodel"
                             }
                         }
@@ -9129,7 +9181,11 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 15961764824780236473
+                    "Id": 15961764824780236473,
+                    "Child Entity Order": [
+                        "Entity_[1003825876672]",
+                        "Entity_[1119789993664]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -9155,9 +9211,6 @@
                     "$type": "ROS2FrameEditorComponent",
                     "Id": 133311082163696813,
                     "ROS2FrameConfiguration": {
-                        "Namespace Configuration": {
-                            "Namespace": "suspension_arm_F_R_to_suspension_steer_F_R"
-                        },
                         "Frame Name": "suspension_arm_F_R_to_suspension_steer_F_R",
                         "Joint Name": "suspension_arm_F_R_to_suspension_steer_F_R_joint"
                     }
