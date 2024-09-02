@@ -7756,14 +7756,14 @@
                                 }
                             ],
                             "Track": 2.7100000381469727,
-                            "Wheelbase": 2.819999933242798
+                            "Wheelbase": 2.7100000381469727
                         },
                         "DriveModel": {
                             "Limits": {
-                                "LinearLimit": 1.0,
-                                "AngularLimit": 1.0,
+                                "LinearLimit": 1.5,
+                                "AngularLimit": 2.5,
                                 "LinearAcceleration": 0.75,
-                                "AngularAcceleration": 0.75
+                                "AngularAcceleration": 1.25
                             }
                         }
                     }
