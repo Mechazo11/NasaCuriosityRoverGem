@@ -3378,10 +3378,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{A823CE1C-60EF-5929-98D8-CF05F9F21BEC}",
+                                    "guid": "{78BC6A86-C9EE-5614-BBDA-6C441A93ED74}",
                                     "subId": 276191053
                                 },
-                                "loadBehavior": "PreLoad"
+                                "assetHint": "urdfimporter/677588509_curiosity_mars_rover/mast_cameras.dae.azmodel"
                             }
                         }
                     }
@@ -7923,10 +7923,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{BD374A10-938C-5BEA-9F32-CE9431F9DFB7}",
+                                    "guid": "{F479E140-F299-52FA-B46E-C0EF7CC62476}",
                                     "subId": 282535801
                                 },
-                                "loadBehavior": "PreLoad"
+                                "assetHint": "urdfimporter/677588509_curiosity_mars_rover/mast_02_fixed.dae.azmodel"
                             }
                         }
                     }
@@ -8255,10 +8255,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{C02A4283-DEB9-5FBD-90A3-E87B4A09A8A1}",
+                                    "guid": "{0BB00802-0608-5BFF-9A5C-62B95ACFD9AB}",
                                     "subId": 270466175
                                 },
-                                "loadBehavior": "PreLoad"
+                                "assetHint": "urdfimporter/677588509_curiosity_mars_rover/mast_p_fixed.dae.azmodel"
                             }
                         }
                     }
