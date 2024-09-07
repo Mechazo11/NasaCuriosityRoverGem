@@ -1977,7 +1977,9 @@
                     "Angular Limit": {
                         "Standard Limit Configuration": {
                             "Is Limited": false
-                        }
+                        },
+                        "Positive Limit": 360.0,
+                        "Negative Limit": -360.0
                     },
                     "Motor": {
                         "UseMotor": true
@@ -2001,34 +2003,29 @@
                 },
                 "EditorRigidBodyComponent": {
                     "$type": "EditorRigidBodyComponent",
-                    "Id": 2004827468299526327,
+                    "Id": 17094185169618805990,
                     "Configuration": {
                         "entityId": "",
                         "Linear damping": 1.5,
-                        "Angular damping": 1.5,
-                        "Compute Mass": false,
-                        "Mass": 2.069999933242798,
+                        "Angular damping": 15.0,
+                        "Mass": 70.77183532714844,
                         "Centre of mass offset": [
-                            -3.2154188200905764e-9,
-                            2.9576858739943646e-9,
-                            -7.914478850068463e-9
+                            -2.7231954469186803e-9,
+                            -1.2692635831257348e-9,
+                            1.2242367120052222e-9
                         ],
                         "Inertia tensor": [
-                            0.0593920536339283,
+                            2.0197582244873047,
                             0.0,
                             0.0,
                             0.0,
-                            0.05657355487346649,
+                            1.9288029670715332,
                             0.0,
                             0.0,
                             0.0,
-                            0.05657355487346649
+                            1.9288029670715332
                         ],
-                        "Maximum Angular Velocity": 10.0
-                    },
-                    "PhysXSpecificConfiguration": {
-                        "SolverPositionIterations": 40,
-                        "SolverVelocityIterations": 10
+                        "Maximum Angular Velocity": 9.0
                     }
                 },
                 "EditorVisibilityComponent": {
@@ -2065,7 +2062,8 @@
                     "Id": 9155680849300616148,
                     "m_template": {
                         "$type": "WheelControllerComponent",
-                        "SteeringEntity": ""
+                        "SteeringEntity": "",
+                        "SteeringScale": 0.10000000149011612
                     }
                 }
             }
@@ -7652,6 +7650,8 @@
                     "ArticulationConfiguration": {
                         "entityId": "",
                         "Mass": 733.6400146484375,
+                        "Linear damping": 1.5,
+                        "Angular damping": 1.5,
                         "SolverPositionIterations": 40,
                         "SolverVelocityIterations": 10,
                         "Display Joint Setup": 0,
@@ -7756,31 +7756,22 @@
                         "VehicleConfiguration": {
                             "AxlesConfigurations": [
                                 {
-                                    "AxleTag": "front",
-                                    "AxleWheels": [
-                                        "Entity_[913631563456]",
-                                        "Entity_[1136969862848]"
-                                    ],
-                                    "WheelRadius": 0.24199999868869781,
-                                    "IsSteering": true
-                                },
-                                {
                                     "AxleTag": "back",
                                     "AxleWheels": [
                                         "Entity_[939401367232]",
                                         "Entity_[1094020189888]"
                                     ],
-                                    "WheelRadius": 0.24199999868869781,
+                                    "WheelRadius": 0.24300000071525574,
                                     "IsDrive": true
                                 }
                             ],
-                            "Track": 2.7100000381469727,
+                            "Track": 2.809999942779541,
                             "Wheelbase": 2.7100000381469727
                         },
                         "DriveModel": {
                             "Limits": {
-                                "LinearLimit": 0.5,
-                                "AngularLimit": 0.5,
+                                "LinearLimit": 0.12520000338554382,
+                                "AngularLimit": 0.125,
                                 "LinearAcceleration": 0.5,
                                 "AngularAcceleration": 0.5
                             }
@@ -7957,26 +7948,22 @@
                         "Compute Mass": false,
                         "Mass": 2.069999933242798,
                         "Centre of mass offset": [
-                            -5.468926644880412e-9,
-                            0.000005362206593417795,
-                            -0.000007264549367391737
+                            -2.7231954469186803e-9,
+                            -1.2692635831257348e-9,
+                            1.2242367120052222e-9
                         ],
                         "Inertia tensor": [
-                            0.06047917902469635,
+                            0.05907575413584709,
                             0.0,
                             0.0,
                             0.0,
-                            0.057112522423267365,
+                            0.05641540512442589,
                             0.0,
                             0.0,
                             0.0,
-                            0.05712038278579712
+                            0.05641540512442589
                         ],
-                        "Maximum Angular Velocity": 9.0
-                    },
-                    "PhysXSpecificConfiguration": {
-                        "SolverPositionIterations": 40,
-                        "SolverVelocityIterations": 10
+                        "Maximum Angular Velocity": 10.0
                     }
                 },
                 "EditorVisibilityComponent": {
@@ -8001,7 +7988,8 @@
                     "Id": 16225400758990875460,
                     "m_template": {
                         "$type": "WheelControllerComponent",
-                        "SteeringEntity": ""
+                        "SteeringEntity": "",
+                        "SteeringScale": 0.10000000149011612
                     }
                 }
             }
