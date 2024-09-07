@@ -1868,16 +1868,15 @@
                     "Id": 11378430087470610130,
                     "CameraSensorConfig": {
                         "VerticalFieldOfViewDeg": 80.0,
-                        "Width": 800,
-                        "Height": 800,
                         "Depth": false,
                         "ClipNear": 0.009999999776482582
                     },
                     "SensorConfig": {
+                        "Visualize": false,
                         "Publishers": {
                             "Color Camera Info": {
                                 "Type": "sensor_msgs::msg::CameraInfo",
-                                "Topic": "camera_color_info"
+                                "Topic": "camera_config_info"
                             },
                             "Color Image": {
                                 "Type": "sensor_msgs::msg::Image",
@@ -3678,6 +3677,9 @@
                                 "UseMaterialsFromAsset": false
                             }
                         }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
                     }
                 },
                 "EditorOnlyEntityComponent": {
@@ -4703,6 +4705,9 @@
                                 "UseMaterialsFromAsset": false
                             }
                         }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
                     }
                 },
                 "EditorOnlyEntityComponent": {
@@ -5017,6 +5022,9 @@
                             "Height": 0.20000000298023224,
                             "Radius": 0.20000000298023224
                         }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
                     }
                 },
                 "EditorDisabledCompositionComponent": {
@@ -5395,6 +5403,9 @@
                                 "UseMaterialsFromAsset": false
                             }
                         }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
                     }
                 },
                 "EditorOnlyEntityComponent": {
@@ -5526,6 +5537,9 @@
                             "Height": 0.019999999552965164,
                             "Radius": 0.20000000298023224
                         }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
                     }
                 },
                 "EditorDisabledCompositionComponent": {
@@ -6232,9 +6246,9 @@
                     "Parent Entity": "ContainerEntity",
                     "Transform Data": {
                         "Translate": [
-                            -0.019704222679138184,
-                            0.0,
-                            -0.03500247001647949
+                            -0.019704818725585938,
+                            0.104736328125,
+                            0.04676210880279541
                         ],
                         "Rotate": [
                             0.0,
@@ -7638,6 +7652,7 @@
                         "Mass": 733.6400146484375,
                         "SolverPositionIterations": 40,
                         "SolverVelocityIterations": 10,
+                        "Display Joint Setup": 0,
                         "Is Limited": false
                     }
                 },
@@ -7657,11 +7672,14 @@
                         "ShapeType": 1,
                         "Box": {
                             "Configuration": [
-                                1.5369999408721924,
-                                2.0799999237060547,
+                                1.156999945640564,
+                                1.659999966621399,
                                 0.7599999904632568
                             ]
                         }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
                     }
                 },
                 "EditorDisabledCompositionComponent": {
