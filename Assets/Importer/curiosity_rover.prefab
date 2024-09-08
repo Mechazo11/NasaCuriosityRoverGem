@@ -2395,20 +2395,20 @@
                         "Compute Mass": false,
                         "Mass": 2.069999933242798,
                         "Centre of mass offset": [
-                            -5.468926644880412e-9,
-                            0.000005362206593417795,
-                            -0.000007264549367391737
+                            -2.7231954469186803e-9,
+                            -1.2692635831257348e-9,
+                            1.2242367120052222e-9
                         ],
                         "Inertia tensor": [
-                            0.06047917902469635,
+                            0.05907575413584709,
                             0.0,
                             0.0,
                             0.0,
-                            0.057112522423267365,
+                            0.05641540512442589,
                             0.0,
                             0.0,
                             0.0,
-                            0.05712038278579712
+                            0.05641540512442589
                         ],
                         "Maximum Angular Velocity": 10.0
                     },
@@ -2960,20 +2960,20 @@
                         "Compute Mass": false,
                         "Mass": 2.069999933242798,
                         "Centre of mass offset": [
-                            -5.468926644880412e-9,
-                            0.000005362206593417795,
-                            -0.000007264549367391737
+                            -2.7231954469186803e-9,
+                            -1.2692635831257348e-9,
+                            1.2242367120052222e-9
                         ],
                         "Inertia tensor": [
-                            0.06047917902469635,
+                            0.05907575413584709,
                             0.0,
                             0.0,
                             0.0,
-                            0.057112522423267365,
+                            0.05641540512442589,
                             0.0,
                             0.0,
                             0.0,
-                            0.05712038278579712
+                            0.05641540512442589
                         ],
                         "Maximum Angular Velocity": 10.0
                     },
@@ -6249,12 +6249,7 @@
                         "Translate": [
                             -0.019704818725585938,
                             0.104736328125,
-                            0.04676210880279541
-                        ],
-                        "Rotate": [
-                            0.0,
-                            0.0,
-                            180.0
+                            1.154565453529358
                         ]
                     }
                 }
@@ -7363,20 +7358,20 @@
                         "Compute Mass": false,
                         "Mass": 2.069999933242798,
                         "Centre of mass offset": [
-                            -5.468926644880412e-9,
-                            0.000005362206593417795,
-                            -0.000007264549367391737
+                            -2.7231954469186803e-9,
+                            -1.2692635831257348e-9,
+                            1.2242367120052222e-9
                         ],
                         "Inertia tensor": [
-                            0.06047917902469635,
+                            0.05907575413584709,
                             0.0,
                             0.0,
                             0.0,
-                            0.057112522423267365,
+                            0.05641540512442589,
                             0.0,
                             0.0,
                             0.0,
-                            0.05712038278579712
+                            0.05641540512442589
                         ],
                         "Maximum Angular Velocity": 10.0
                     },
@@ -7658,32 +7653,6 @@
                         "Is Limited": false
                     }
                 },
-                "EditorColliderComponent": {
-                    "$type": "EditorColliderComponent",
-                    "Id": 2103257905624345378,
-                    "ColliderConfiguration": {
-                        "MaterialSlots": {
-                            "Slots": [
-                                {
-                                    "Name": "Entire object"
-                                }
-                            ]
-                        }
-                    },
-                    "ShapeConfiguration": {
-                        "ShapeType": 1,
-                        "Box": {
-                            "Configuration": [
-                                1.156999945640564,
-                                1.659999966621399,
-                                0.7599999904632568
-                            ]
-                        }
-                    },
-                    "DebugDrawSettings": {
-                        "LocallyEnabled": false
-                    }
-                },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 1075603741556531455
@@ -7710,6 +7679,52 @@
                 "EditorLockComponent": {
                     "$type": "EditorLockComponent",
                     "Id": 2275618526827154039
+                },
+                "EditorMeshColliderComponent": {
+                    "$type": "EditorMeshColliderComponent",
+                    "Id": 18276684643229348207,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "tex_01"
+                                },
+                                {
+                                    "Name": "base_gray"
+                                },
+                                {
+                                    "Name": "tex_02"
+                                },
+                                {
+                                    "Name": "tex_03"
+                                },
+                                {
+                                    "Name": "parts_AO"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{65571B44-620B-505A-9582-D9FA4B48E1D5}",
+                                    "subId": 1668657879
+                                },
+                                "assetHint": "urdfimporter/677588509_curiosity_mars_rover/chassis_full_fixed_glitch_v3.dae.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{65571B44-620B-505A-9582-D9FA4B48E1D5}",
+                                        "subId": 1668657879
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "urdfimporter/677588509_curiosity_mars_rover/chassis_full_fixed_glitch_v3.dae.pxmesh"
+                                }
+                            }
+                        }
+                    }
                 },
                 "EditorOnlyEntityComponent": {
                     "$type": "EditorOnlyEntityComponent",
@@ -7756,6 +7771,15 @@
                         "VehicleConfiguration": {
                             "AxlesConfigurations": [
                                 {
+                                    "AxleTag": "front",
+                                    "AxleWheels": [
+                                        "Entity_[913631563456]",
+                                        "Entity_[1136969862848]"
+                                    ],
+                                    "WheelRadius": 0.24199999868869781,
+                                    "IsDrive": true
+                                },
+                                {
                                     "AxleTag": "back",
                                     "AxleWheels": [
                                         "Entity_[939401367232]",
@@ -7765,8 +7789,8 @@
                                     "IsDrive": true
                                 }
                             ],
-                            "Track": 2.809999942779541,
-                            "Wheelbase": 2.7100000381469727
+                            "Track": 2.0,
+                            "Wheelbase": 2.259999990463257
                         },
                         "DriveModel": {
                             "Limits": {
@@ -8536,20 +8560,20 @@
                         "Compute Mass": false,
                         "Mass": 2.069999933242798,
                         "Centre of mass offset": [
-                            -3.2154188200905764e-9,
-                            2.9576858739943646e-9,
-                            -7.914478850068463e-9
+                            -2.7231954469186803e-9,
+                            -1.2692635831257348e-9,
+                            1.2242367120052222e-9
                         ],
                         "Inertia tensor": [
-                            0.0593920536339283,
+                            0.05907575413584709,
                             0.0,
                             0.0,
                             0.0,
-                            0.05657355487346649,
+                            0.05641540512442589,
                             0.0,
                             0.0,
                             0.0,
-                            0.05657355487346649
+                            0.05641540512442589
                         ],
                         "Maximum Angular Velocity": 10.0
                     },
