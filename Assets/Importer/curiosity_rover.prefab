@@ -2008,22 +2008,23 @@
                         "entityId": "",
                         "Linear damping": 1.5,
                         "Angular damping": 15.0,
-                        "Mass": 70.77183532714844,
+                        "Compute Mass": false,
+                        "Mass": 2.069999933242798,
                         "Centre of mass offset": [
                             -2.7231954469186803e-9,
                             -1.2692635831257348e-9,
                             1.2242367120052222e-9
                         ],
                         "Inertia tensor": [
-                            2.0197582244873047,
+                            0.05907575413584709,
                             0.0,
                             0.0,
                             0.0,
-                            1.9288029670715332,
+                            0.05641540512442589,
                             0.0,
                             0.0,
                             0.0,
-                            1.9288029670715332
+                            0.05641540512442589
                         ],
                         "Maximum Angular Velocity": 9.0
                     }
@@ -2049,11 +2050,6 @@
                             1.1920928955078125e-7,
                             0.0,
                             -5.960464477539063e-8
-                        ],
-                        "Rotate": [
-                            -5.963539700308638e-16,
-                            3.3350524564212947e-9,
-                            -179.99996948242188
                         ]
                     }
                 },
@@ -7771,31 +7767,22 @@
                         "VehicleConfiguration": {
                             "AxlesConfigurations": [
                                 {
-                                    "AxleTag": "front",
+                                    "AxleTag": "back",
                                     "AxleWheels": [
-                                        "Entity_[913631563456]",
-                                        "Entity_[1136969862848]"
+                                        "Entity_[1094020189888]",
+                                        "Entity_[939401367232]"
                                     ],
                                     "WheelRadius": 0.24199999868869781,
                                     "IsDrive": true
-                                },
-                                {
-                                    "AxleTag": "back",
-                                    "AxleWheels": [
-                                        "Entity_[939401367232]",
-                                        "Entity_[1094020189888]"
-                                    ],
-                                    "WheelRadius": 0.24300000071525574,
-                                    "IsDrive": true
                                 }
                             ],
-                            "Track": 2.0,
-                            "Wheelbase": 2.259999990463257
+                            "Track": 2.700000047683716,
+                            "Wheelbase": 2.799999952316284
                         },
                         "DriveModel": {
                             "Limits": {
-                                "LinearLimit": 0.12520000338554382,
-                                "AngularLimit": 0.125,
+                                "LinearLimit": 1.5,
+                                "AngularLimit": 1.0,
                                 "LinearAcceleration": 0.5,
                                 "AngularAcceleration": 0.5
                             }
