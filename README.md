@@ -2,17 +2,23 @@
 
 # Nasa Curiosity Rover Gem for Open 3D Engine (O3DE)
 
-**TODO** no longer updated until we figure out how to correctly make a Gem from imported URDF files
-
-**TODO** introduction, mention it was created as part of the NASA Space Sim Challenge 2024
+Author: Azmyin Md. Kamal
+Date: 09/09/2024
+Version 1.0
+Created as part of submission to the NASA Space ROS Sim Summer Sprint Challenge 2024, Issue [#181](https://github.com/space-ros/docker/issues/181)
 
 ## Description
 
 This is an Asset Gem. It is a port of the NASA's Curiosity Rover model from [Space-ROS simulation](https://github.com/space-ros/simulation/tree/main/models/curiosity_path) repository. 
 
+<p align="left">
+  <img src="preview.png" width="700" height=auto alt="curiosity_rover">
+</p>
+
 **TODO**
     * more details
     * how this asset gem was created? Blender to fix dae + Robot Importer
+    * known limitations
 
 ## Requirements
 
